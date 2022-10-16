@@ -53,7 +53,7 @@ class Home:
 ♫ Lệnh " HELP " Để Xem Hướng Dẫn ♫
 """)
 		while True:
-			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"LoveTool"+Color.LC+" @ "+Color.LG+"Vi Duc Hung"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"root"+Color.LC+"@"+Color.LG+"LoveTool"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
 			option = input()
 			if option == 'layer7' or option == 'LAYER7':
 				os.system('clean');self.Method1()
@@ -92,7 +92,7 @@ class Home:
 		print("\n")
 		http_proxy = "https://www.viduchung.ml/viduchung"
 		while True:
-			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"LoveTool"+Color.LC+" @ "+Color.LG+"Layer7"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"root"+Color.LC+"@"+Color.LG+"LoveTool"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
 			option = input()
 			if option == '01' or option == '1':
 				try:
